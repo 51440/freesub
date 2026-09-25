@@ -6,14 +6,19 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "hikvision-plus.com",
-      "server_port": 2052,
-      "uuid": "b1a8d1eb-dfb2-4dd3-afe6-cd0fff8177df",
+      "server": "ccs2g.pai50288.uk",
+      "server_port": 443,
+      "uuid": "8be461cb-a0df-47cf-bc0d-4d9e6a22fa74",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccs2g.pai50288.uk",
+        "insecure": false
+      },
       "transport": {
         "type": "ws",
-        "path": "/@BlueKnight_net--@BlueKnight_net",
+        "path": "/pai50288",
         "headers": {
-          "Host": "uwu.blueknightnet.qzz.io"
+          "Host": "ccs2g.pai50288.uk"
         }
       }
     },

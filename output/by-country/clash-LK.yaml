@@ -14,7 +14,7 @@ proxies:
   ws-opts:
     path: /
 - name: 🇱🇰 斯里兰卡 (Sri Lanka) 02 - xiaohe
-  server: 140.245.120.16
+  server: trackydev.site
   port: 443
   udp: true
   type: vless
@@ -22,9 +22,12 @@ proxies:
   tls: true
   servername: trackydev.site
   skip-cert-verify: false
+  client-fingerprint: random
   network: ws
   ws-opts:
     path: /
+    headers:
+      Host: trackydev.site
 proxy-groups:
 - name: PROXIES
   type: select

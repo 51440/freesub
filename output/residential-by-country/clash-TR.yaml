@@ -15,7 +15,7 @@ proxies:
   obfs: salamander
   obfs-password: u3Soh9_Ui0UmcuY6vk0ug8Lq
 - name: 🇹🇷 土耳其 (Turkey) 02 (移动家宽) - xiaohe
-  server: 145.239.30.17
+  server: test.keoplentuio.xyz
   port: 2053
   udp: true
   type: vless
